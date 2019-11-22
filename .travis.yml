@@ -17,5 +17,4 @@ script:
   - go test ./...
   - go vet -composites=false ./...
   - make
-  - make all
-  - make prove 2>&1
+  
